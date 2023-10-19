@@ -9,10 +9,10 @@ namespace GitExercise
             Console.WriteLine("Console Calculator App");
             Console.WriteLine(new string('-', 15));
 
-            Console.Write("a = ");
+            Console.Write("num1 = ");
             double a = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
 
-            Console.Write("b = ");
+            Console.Write("num2 = ");
             double b = double.Parse(Console.ReadLine() ?? throw new InvalidOperationException());
 
             Console.WriteLine("Choose one from the listed options:");
